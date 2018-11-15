@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Orbitron');
+/*
+font-family: 'Orbitron', sans-serif;
+
+font-family: 'Lato', sans-serif;
+
+*/
+html{
+    background-image: url(blackwhitetriangle3lg.png);    
+background-position: bottom;
+background-repeat: repeat-x;
+background-size: cover;
+}
+
+.bodysection{
+
+padding-bottom: 90px;
+padding-top:90px;
+
+}
+
+
+.headerclass{    
+    position: absolute;
+    top: 0;    
+    width: calc(100% - 15px);
+    height: 90px;
+    min-width: 1000px ;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.headertext{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-variant: small-caps;    
+    vertical-align: 50%;
+    font-size: 2.75em;
+    letter-spacing: .5em;
+    margin-left: 25px;
+}
+
+.iconimage{
+    transition: .25s;
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.iconimage:hover{
+    transition: .25s;
+    background-color: lightgray;
+}
+
+.iconimageselected{
+    transition: .25s;
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: darkgray;
+}
+
+.mainbody{
+    border: 10px solid black;
+    border-left-width: 75px;
+    border-right-width: 75px;
+    background-color: white;
+    background-image: url(static.gif);
+    background-size: cover;
+    border-radius: 10px;
+    margin:auto;
+    margin-top: 125px;
+    margin-bottom: 100px;
+    width: 60%;
+    height: calc(100% - 300px);
+    padding: 20px;
+}
+
+
+
+.textbodyclass{
+    font-family: 'Lato', sans-serif;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.label{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    letter-spacing: .25em;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;    
+    width: calc(100% - 100px);
+
+}
+
+.portfoliobutton{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    height: 225px;
+    width: calc(50% - 75px);
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.portfoliobutton2{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    height: 225px;
+    width: calc(50% - 75px);
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.aboutmephoto{
+    background-color: white;
+    background-image: url("myface.jpg");
+    background-size: cover;    
+    border-radius: 50%;
+    float: left;
+    height: 225px;
+    width: 225px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.aboutmetext{
+    padding-left: 20px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .1em;
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    width: calc(100% - 400px);
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.footerspacer{
+    float:auto;
+    height: 400px;
+}
+
+.footerclass{
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 35px);    
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+    padding: 10px;    
+
+}
+
+.footertext{
+    font-family: 'Lato', sans-serif;
+    color: white;    
+    letter-spacing: .25em;
+    font-variant: small-caps;
+    text-align: right;
+    margin-right: 25px;
+
+}
+
+.footerimage{
+    transition: .25s;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    padding: 7.5px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.footerimage:hover{
+    transition: .25s;
+    background-color: lightgray;
+}
